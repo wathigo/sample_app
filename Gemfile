@@ -9,6 +9,8 @@ end
 gem 'rails',                   '5.1.6'
 gem 'bcrypt',                  '3.1.12'
 gem 'faker',                   '1.7.3'
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'carrierwave',             '1.2.2'
 gem 'mini_magick',             '4.7.0'
 gem 'will_paginate',           '3.1.6'
@@ -28,6 +30,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'faker',                 "1.7.3"
   gem 'web-console',           '3.5.1'
   gem 'listen',                '3.1.5'
   gem 'spring',                '2.0.2'
